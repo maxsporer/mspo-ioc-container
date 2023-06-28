@@ -2,11 +2,18 @@
   "name": "mspo-ioc-container",
   "version": "1.0.0",
   "description": "A simple IoC container written in TypeScript",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.5"
+  }
 }
