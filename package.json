@@ -1,6 +1,6 @@
 {
   "name": "mspo-ioc-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple IoC container written in TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,12 +8,24 @@
     "/lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": ["inverson of control", "dependecy injection", "TypeScript"],
+  "keywords": [
+    "inverson of control",
+    "dependecy injection",
+    "TypeScript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^29.5.0",
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "babel-jest": "^29.5.0"
   }
 }
